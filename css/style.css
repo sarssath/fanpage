@@ -4,6 +4,8 @@ html {
 
 body {
     height: 100%;
+    color: white; 
+    background-color: black;
     
 }
 a {
@@ -16,4 +18,15 @@ a {
 .social-image{
     width: 30px;
     margin: 15px;
+}
+.header {
+    display: flex;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+.footer {
+    display:flex;
+    justify-content: space-between;
 }
